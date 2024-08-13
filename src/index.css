@@ -647,7 +647,7 @@ div span svg {
     padding: 10px;
   }
 
-  .search-box{
+  .search-box {
     height: 100%;
   }
 
@@ -672,8 +672,11 @@ div span svg {
   }
 
   div.card-title.h5 {
-    font-size: 16px;
     margin-bottom: 0px;
+    font-size: clamp(15px, 1.5vw, 16px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   a#prLink {
