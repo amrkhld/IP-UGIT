@@ -687,11 +687,17 @@ div span svg {
   }
 
   .search-input {
-    font-size: 20px;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .search-button {
-    padding: 0;
+    padding: 0px;
+  }
+  .search-button img {
+    height: 50px;
+    width: 50px;
   }
 
   .user-profile {
