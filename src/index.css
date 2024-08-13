@@ -293,10 +293,12 @@ p.card-text a:active {
 }
 
 form {
+  max-width: 600px;
+  box-sizing: border-box;
   transition: background 0.1s ease-in-out, transform 0.3s ease,
     box-shadow 0.3s ease;
   border: #4a007f solid;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   border-radius: 100px;
   padding: 20px 30px;
@@ -678,7 +680,10 @@ div span svg {
   }
 
   form {
-    padding: 8px 7px;
+    padding: 15px 20px; /* Adjust padding for smaller screens */
+    max-width: 90%;
+    margin-right: 5;
+    margin-left: 5;
   }
 
   .search-input {
@@ -764,5 +769,14 @@ div span svg {
   .arrow {
     width: 25px;
     height: 25px;
+  }
+
+  .screen-box {
+    border: transparent;
+    padding: 5px;
+  }
+
+  button.navbar-toggler {
+    border-width: 2px;
   }
 }
