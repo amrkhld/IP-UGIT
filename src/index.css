@@ -282,7 +282,7 @@ p.card-text a:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 81vh;
+  height: 100%;
   transition: height 0.5s ease, margin-top 0.5s ease;
 }
 
@@ -292,7 +292,6 @@ p.card-text a:active {
 }
 
 form {
-  max-width: 600px;
   box-sizing: border-box;
   transition: background 0.1s ease-in-out, transform 0.3s ease,
     box-shadow 0.3s ease;
@@ -301,6 +300,7 @@ form {
   align-items: center;
   border-radius: 100px;
   padding: 20px 30px;
+  margin-top: 10px;
   margin-bottom: 10px;
   animation: borderColorChange 3s infinite;
   overflow: hidden;
